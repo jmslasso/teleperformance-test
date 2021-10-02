@@ -1,0 +1,42 @@
+.App {
+    text-align: center;
+    font-family: "Monument Extended", sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    max-height: auto;
+    min-height: 100vh;
+    background: linear-gradient(
+    180deg,
+    rgba(238, 69, 64, 1) 0%,
+    rgba(199, 44, 65, 1) 15%,
+    rgba(128, 19, 54, 1) 30%,
+    rgba(81, 10, 50, 1) 45%,
+    rgba(45, 20, 44, 1) 100%);
+
+  }
+  .header{
+    display: flex;
+    align-content: center;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+    background: black;
+    color: white;
+  }
+  .games{
+    position: relative;
+    margin-top: 35px;
+    padding: 6px;
+  }
+  .results{
+    display: block;
+  }
+  .search-field{
+    padding-left: 65%;
+  }
+
+
